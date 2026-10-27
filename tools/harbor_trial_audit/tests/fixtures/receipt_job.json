@@ -1,0 +1,135 @@
+{
+  "config.json": {
+    "job_name": "nsreceipt-fdd93ef8fb7a-ncpp-final-driver-b-null-attempt-1",
+    "jobs_dir": "/private/tmp/nsp-cpp/tmp/nsreceipt-djx114hy/jobs-null-attempt-1",
+    "n_concurrent_trials": 1,
+    "environment": {
+      "import_path": "tools.acceptance_receipt.compose_environment:ComposeEnvironment",
+      "kwargs": {
+        "keep_containers": true
+      }
+    },
+    "agents": [
+      {
+        "name": "nop"
+      }
+    ],
+    "tasks": [
+      {
+        "path": "/private/tmp/nsp-cpp/tmp/nsreceipt-djx114hy/task"
+      }
+    ]
+  },
+  "result.json": {
+    "n_total_trials": 1,
+    "stats": {
+      "n_completed_trials": 1
+    }
+  },
+  "lock.json": {
+    "schema_version": 3,
+    "harbor": {
+      "version": "0.24.0",
+      "git_commit_hash": "4b59c5c46239e92f6c9fde772bdc1a70bdaead02",
+      "is_editable": false
+    }
+  },
+  "task__mXTUHZL/config.json": {
+    "task": {
+      "path": "/private/tmp/nsp-cpp/tmp/nsreceipt-djx114hy/task"
+    },
+    "trial_name": "task__mXTUHZL",
+    "trials_dir": "/private/tmp/nsp-cpp/tmp/nsreceipt-djx114hy/jobs-null-attempt-1/nsreceipt-fdd93ef8fb7a-ncpp-final-driver-b-null-attempt-1",
+    "agent": {
+      "name": "nop"
+    },
+    "environment": {
+      "import_path": "tools.acceptance_receipt.compose_environment:ComposeEnvironment",
+      "kwargs": {
+        "keep_containers": true
+      }
+    },
+    "job_id": "dcc8b185-b6e2-4835-a3de-b5b243e3ee19"
+  },
+  "task__mXTUHZL/result.json": {
+    "task_name": "terminal-bench/freight-dispatch-shift",
+    "trial_name": "task__mXTUHZL",
+    "config": {
+      "task": {
+        "path": "/private/tmp/nsp-cpp/tmp/nsreceipt-djx114hy/task",
+        "git_url": null,
+        "git_commit_id": null,
+        "name": null,
+        "ref": null,
+        "overwrite": false,
+        "download_dir": null,
+        "source": null
+      },
+      "trial_name": "task__mXTUHZL",
+      "trials_dir": "/private/tmp/nsp-cpp/tmp/nsreceipt-djx114hy/jobs-null-attempt-1/nsreceipt-fdd93ef8fb7a-ncpp-final-driver-b-null-attempt-1",
+      "install_only": false,
+      "timeout_multiplier": 1.0,
+      "agent_timeout_multiplier": null,
+      "verifier_timeout_multiplier": null,
+      "agent_setup_timeout_multiplier": null,
+      "environment_build_timeout_multiplier": null,
+      "agent": {
+        "name": "nop",
+        "import_path": null,
+        "model_name": null,
+        "model_base_url": null,
+        "model_api_key_name": null,
+        "model_api_format": null,
+        "skip_model_parsing": false,
+        "n_concurrent": null,
+        "concurrency_group": null,
+        "skills": [],
+        "override_timeout_sec": null,
+        "override_setup_timeout_sec": null,
+        "max_timeout_sec": null,
+        "resume_trajectory": false,
+        "load_trajectory": null,
+        "extra_allowed_hosts": [],
+        "kwargs": {},
+        "mcp_servers": []
+      },
+      "user_agent": null,
+      "environment": {
+        "type": null,
+        "import_path": "tools.acceptance_receipt.compose_environment:ComposeEnvironment",
+        "force_build": false,
+        "delete": true,
+        "stream": false,
+        "cpu_enforcement_policy": "auto",
+        "memory_enforcement_policy": "auto",
+        "override_cpus": null,
+        "override_memory_mb": null,
+        "override_storage_mb": null,
+        "override_gpus": null,
+        "override_tpu": null,
+        "mounts": null,
+        "extra_docker_compose": [],
+        "kwargs": {
+          "keep_containers": true
+        },
+        "extra_allowed_hosts": []
+      },
+      "verifier": {
+        "override_timeout_sec": null,
+        "max_timeout_sec": null,
+        "disable": false
+      },
+      "artifacts": [],
+      "extra_instruction_paths": [],
+      "extra_instructions": [],
+      "job_id": "dcc8b185-b6e2-4835-a3de-b5b243e3ee19",
+      "source_trial": null
+    },
+    "verifier_result": {
+      "rewards": {
+        "reward": 0.0
+      }
+    },
+    "exception_info": null
+  }
+}
